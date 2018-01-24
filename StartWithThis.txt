@@ -1,0 +1,25 @@
+Creat git for this folder:
+============================
+
+1) git init
+
+2) git add .
+
+3)   git config --global user.email "Saray@test.com"
+     git config --global user.name "Saray"
+
+4) git commit -m "First commit"
+
+5) לפתוח ריפו בגיטהאב ולהעתיק את הקישור אליו
+
+6) git remote add origin https://github.com/sarayE/my-new-repo.git
+
+7) push -u origin master
+ולהכניס שם משתמש וסיסמה
+
+
+
+
+git status = לראות את כל הקבצים הלא מתועדים
+git remote -v = לראות את כל המחשבים המקושרים
+git remote rm origin  = להעיף מחשב מקושר
