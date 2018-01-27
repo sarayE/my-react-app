@@ -10,11 +10,13 @@ class SearchBar extends Component{ //extends React.Component => Get all the func
     }
     
     render() {
-        //this.state.term = event.target.value  BAD PRACTICE!!!!
+        //this.state.term = event.target.value BAD PRACTICE!!!!
         return (
             <div>
-                <input onChange={event => this.setState( { term: event.target.value } )}/>
-                Value of the input: {this.state.term}
+                <input 
+                value = {this.state.term}
+                onChange={event => this.setState({ term: event.target.value })}
+                />                
             </div>
         );
     }
