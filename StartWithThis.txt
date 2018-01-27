@@ -17,14 +17,13 @@ Creat git for this folder:
 7) push -u origin master
 ולהכניס שם משתמש וסיסמה
 
-
-
-
+ 
 git status = לראות את כל הקבצים הלא מתועדים
 git remote -v = לראות את כל המחשבים המקושרים
 git remote rm origin  = להעיף מחשב מקושר
 git commit -a -m "my string"
 
+git reset HEAD~ = מוחק את התגובה האחרונה
 
 
 start the application:
