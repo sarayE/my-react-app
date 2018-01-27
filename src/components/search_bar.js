@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 //ES6 class:
 class SearchBar extends Component{ //extends React.Component => Get all the functionality of component-class 
  render(){
-     return <inpute/>;
+     return <input/>;
  }
 }
 
