@@ -1,11 +1,9 @@
 import React from 'react'; //render the component
 import ReactDOM from 'react-dom'; //and insert it to the DOM
 
+const API_KEY = 'AIzaSyDyVUQGj031McFwo76MhUtIG0W2ZED58cA';
+
 //Create a new component/class:
-// const App = function() {
-//   return <div>Hi!</div>; //JSX
-// }
-//NEW WAY TO WRITE A FUNCTION IN ES6:
 const App = () => {
   return <div>Hi!</div>; //JSX
 }
