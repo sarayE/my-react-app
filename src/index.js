@@ -2,7 +2,7 @@ import React from 'react'; //render the component
 import ReactDOM from 'react-dom'; //and insert it to the DOM
 
 //Create a new component/class:
-const App = function() {
+const App = () => {
   return <div>Hi!</div>; //JSX
 }
 
