@@ -25,7 +25,7 @@ class App extends Component {
 		return (
 			<div>
 			  <SearchBar/>
-			  <VideoList videos={this.state.videos}/> //pass the parent state (App data), to the chiled (VideoList) --> Part 1
+			  <VideoList videos={this.state.videos}/> 
 			</div>
 		);
 	}

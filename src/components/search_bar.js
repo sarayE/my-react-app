@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+
+
 //ES6-class:
 class SearchBar extends Component{ //extends React.Component => Get all the functionality of component-class 
     
@@ -24,9 +26,10 @@ class SearchBar extends Component{ //extends React.Component => Get all the func
 
 
 //Difrent between component-class and ES6-class:
-//component-class : must return(JSX);
+//component-class : 1.must return(JSX);
+//					2.use props
 //ES6-class: 1.must have a render(){return(JSX)} 
 //           2.Have a stage/constructor! 
-
+//			 3.use this.props 	
 
 export default SearchBar;
