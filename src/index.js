@@ -2,7 +2,7 @@ import React, {Component} from 'react'; //React.createElement to create the comp
 import ReactDOM from 'react-dom'; //and insert it to the DOM
 import YTSearch from 'youtube-api-search';
 import SearchBar from '../src/components/search_bar';
-
+import VideoList from '../src/components/video_list';
 const API_KEY = 'AIzaSyAZhexzN9kifX3HlaNU5AHXE2Utok8N6wg';
 
 class App extends Component {
@@ -16,7 +16,8 @@ class App extends Component {
 		YTSearch({key: API_KEY, term: 'golden'}, (videos) => {
 			console.log(videos);
 			this.setState({videos});
-			//this.setState({videos : videos});
+			//this.setState({videos : videos}); whan the key and the value are the same word
+											  //we can short them together to one word
 		}); 
 	}
 		
@@ -24,6 +25,7 @@ class App extends Component {
 		return (
 			<div>
 			  <SearchBar/>
+			  <VideoList videos={this.state.videos}/> //pass the parent state (App data), to the chiled (VideoList) --> Part 1
 			</div>
 		);
 	}
