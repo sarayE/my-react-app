@@ -2,9 +2,9 @@ import React from 'react';
 import VideoListItem from './video_list_item'; // ./ = current location 
 
 const VideoList = (props) => { 
-	
+		
 	const videoItems = props.videos.map((video) => {
-		return <VideoListItem video={video}/>
+		return (<VideoListItem key={video.etag} video={video}/>); //whan using in map function --> have to add: key={val.etag}
 	});
 
 	return(
