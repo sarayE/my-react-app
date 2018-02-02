@@ -25,6 +25,11 @@ git commit -a -m "my string"
 
 git reset HEAD~ = מוחק את התגובה האחרונה
 
+כדי לעדכן את הריפו הלוקלי בגירסה שיש בשרת 
+git pull
+
+
+
 
 start the application:
 =======================
